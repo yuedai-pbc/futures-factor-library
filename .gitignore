@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.venv/
+data/raw/
+*.pkl
+*.pkl.gz
+*.sas7bdat
+*.parquet
+*.zip
