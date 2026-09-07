@@ -2,25 +2,25 @@
 
 30 research entries and 12 academic/method references. Signal definitions, position-management rules and PnL operators are distinct; they are not 30 independent alphas.
 
-## Step 1
+## Contracts and trading calendars
 
-Version product/contract identifiers, multipliers, tick sizes, settlements, expiry, delivery, trading sessions and release timestamps.
+Version products, contracts, exchanges, multipliers, minimum ticks, settlements, expiries, delivery, trading sessions and announcement times. Assign night sessions to trading dates consistently.
 
-## Step 2
+## Continuous series and rolls
 
-Pre-register roll rules and reconstruct PnL using lagged contract holdings; spliced price gaps are not investment returns.
+Specify liquidity criteria, the safety margin to expiry and roll rules first. Accumulate contract-level PnL using yesterday's positions; spliced price jumps are not investment returns.
 
-## Step 3
+## Signals and portfolios
 
-Keep time-series direction, cross-sectional ranks, carry and supply-demand characteristics separate; apply historical risk estimates and leverage limits.
+Record time-series direction, cross-sectional ranks, carry and supply-demand features separately. Use historical estimates for risk scaling and impose product, sector and leverage constraints.
 
-## Step 4
+## Out-of-sample tests and implementation
 
-Include commissions, spread, impact, limit moves and rolls. Report notional and capital returns separately, with collateral interest distinct.
+Include commissions, spreads, impact, price limits and roll costs. Report returns on notional and actual capital separately; report collateral cash returns separately. Margin is not the default return denominator.
 
-## Step 5
+## Feature families and incremental tests
 
-Whitelist feature windows, changes, seasonal residuals and limited interactions; evaluate by time, market and commodity sector.
+Replicate baseline definitions before registering allowed windows, changes, conditional residuals and limited interactions. Deduplicate within economic families; use rolling-time tests, cross-market holdouts and after-cost ablations. See Feature engineering for budgets and data prerequisites.
 
 ## Research protocol
 

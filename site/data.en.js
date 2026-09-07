@@ -191,7 +191,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Different windows are variants within a family, not separate economic theories.",
       "market": "Cross-asset futures",
-      "reference_authors": "Brian Hurst; Yao Hua Ooi; Lasse Heje Pedersen; Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen"
+      "reference_authors": "Brian Hurst; Yao Hua Ooi; Lasse Heje Pedersen; Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen",
+      "input_fields": "Excess returns reconstructed under the trading rules"
     },
     {
       "id": "trend_strength",
@@ -207,7 +208,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Extension hypothesis; keep distinct from position scaling to avoid double amplification.",
       "market": "Cross-asset futures",
-      "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen"
+      "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen",
+      "input_fields": "Rule-consistent returns, historical volatility"
     },
     {
       "id": "trend_accel",
@@ -224,7 +226,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "New hypothesis; choose horizons before inspecting final tests.",
       "market": "Cross-asset futures",
-      "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen; Brian Hurst; Yao Hua Ooi; Lasse Heje Pedersen"
+      "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen; Brian Hurst; Yao Hua Ooi; Lasse Heje Pedersen",
+      "input_fields": "Returns over multiple windows, historical risk scales"
     },
     {
       "id": "trend_consistency",
@@ -240,7 +243,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "New extension; compare incrementally against trend and volatility controls.",
       "market": "Cross-asset futures",
-      "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen"
+      "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen",
+      "input_fields": "Daily rule-consistent returns"
     },
     {
       "id": "value_long",
@@ -256,7 +260,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Pre-register real-price and maturity adjustments; do not splice incompatible spot grades.",
       "market": "Commodity futures",
-      "reference_authors": "Cliff Asness; Tobias Moskowitz; Lasse Heje Pedersen"
+      "reference_authors": "Cliff Asness; Tobias Moskowitz; Lasse Heje Pedersen",
+      "input_fields": "Long historical spot/futures series, necessary price adjustments"
     },
     {
       "id": "spot_premium",
@@ -272,7 +277,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "A decomposition concept; untradeable spot returns are not executable futures strategies.",
       "market": "Commodity futures",
-      "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+      "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+      "input_fields": "Prices across delivery months, contract returns, basis"
     },
     {
       "id": "term_premium",
@@ -288,7 +294,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Requires contract-level series and roll accounting.",
       "market": "Commodity futures",
-      "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+      "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+      "input_fields": "Contract returns across maturities, expiry dates, sorting variables"
     },
     {
       "id": "curve_curvature",
@@ -305,7 +312,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "New proxy, not basis-momentum. Adjust for unequal spacing and seasonality.",
       "market": "Commodity futures",
-      "reference_authors": "Martijn Boons; Melissa Porras Prado; Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+      "reference_authors": "Martijn Boons; Melissa Porras Prado; Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+      "input_fields": "At least three synchronous positive prices, expiry dates"
     },
     {
       "id": "carry_seasonal",
@@ -322,7 +330,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Require adequate historical seasonal observations; do not mix unlike delivery seasons.",
       "market": "Commodity futures",
-      "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst; Ralph Koijen; Tobias Moskowitz; Lasse Heje Pedersen; Evert Vrugt"
+      "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst; Ralph Koijen; Tobias Moskowitz; Lasse Heje Pedersen; Evert Vrugt",
+      "input_fields": "Multi-year curves, delivery months, seasonal labels"
     },
     {
       "id": "inventory_surprise",
@@ -338,7 +347,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Use release time, not observation-period end; estimate expectations from past data only.",
       "market": "Commodity futures",
-      "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst"
+      "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst",
+      "input_fields": "Historical inventory-release vintages, publication times"
     },
     {
       "id": "oi_growth",
@@ -354,7 +364,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Using only the dominant contract creates roll artifacts. Separate aggregate-paper measures from local extensions.",
       "market": "Commodity futures",
-      "reference_authors": "Harrison Hong; Motohiro Yogo"
+      "reference_authors": "Harrison Hong; Motohiro Yogo",
+      "input_fields": "Contract-level open interest, multipliers, contract status"
     },
     {
       "id": "hp_change",
@@ -370,7 +381,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Extension hypothesis; broker rankings are not commercial-account classifications.",
       "market": "Commodity futures",
-      "reference_authors": "Frans de Roon; Theo Nijman; Chris Veld"
+      "reference_authors": "Frans de Roon; Theo Nijman; Chris Veld",
+      "input_fields": "Commercial long/short positions, publication times"
     },
     {
       "id": "return_skew",
@@ -386,7 +398,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Record the original sample sign separately; small samples are unstable and zero variance means missing.",
       "market": "Commodity futures",
-      "reference_authors": "Adrian Fernandez-Perez; Bart Frijns; Ana-Maria Fuertes; Joëlle Miffre"
+      "reference_authors": "Adrian Fernandez-Perez; Bart Frijns; Ana-Maria Fuertes; Joëlle Miffre",
+      "input_fields": "Daily rule-consistent returns"
     },
     {
       "id": "commodity_vol",
@@ -402,7 +415,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Do not assume either high or low volatility must be profitable.",
       "market": "Commodity futures",
-      "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+      "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+      "input_fields": "Daily rule-consistent returns"
     },
     {
       "id": "liquidity_state",
@@ -418,7 +432,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Notional turnover must include multipliers; margin is not transaction value.",
       "market": "Commodity futures",
-      "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+      "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+      "input_fields": "Trading volume, traded value, spreads, rule-consistent returns"
     },
     {
       "id": "inflation_beta",
@@ -434,7 +449,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "New beta extension; not claimed equivalent to the original characteristic sorts.",
       "market": "Commodity futures",
-      "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+      "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+      "input_fields": "Historical inflation releases, commodity returns"
     },
     {
       "id": "inverse_variance",
@@ -450,7 +466,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Method-transfer hypothesis, not CTA-specific evidence; distinct from inverse-volatility targeting.",
       "market": "Cross-asset futures",
-      "reference_authors": "Alan Moreira; Tyler Muir"
+      "reference_authors": "Alan Moreira; Tyler Muir",
+      "input_fields": "Strategy returns, lagged variance, capital limits"
     },
     {
       "id": "carry_momentum",
@@ -467,7 +484,8 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "New interaction hypothesis; compare against a main-effects model.",
       "market": "Commodity futures",
-      "reference_authors": "Ralph Koijen; Tobias Moskowitz; Lasse Heje Pedersen; Evert Vrugt; Gurdip Bakshi; Xiaohui Gao; Alberto Rossi"
+      "reference_authors": "Ralph Koijen; Tobias Moskowitz; Lasse Heje Pedersen; Evert Vrugt; Gurdip Bakshi; Xiaohui Gao; Alberto Rossi",
+      "input_fields": "Carry, momentum, cross-sectional classifications"
     },
     {
       "id": "inventory_basis",
@@ -483,17 +501,18 @@ window.LIBRARY_EN = {
       "source": "Research definitions added in this expansion",
       "caveat": "Pre-register direction; estimate separately across storage regimes.",
       "market": "Commodity futures",
-      "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst"
+      "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst",
+      "input_fields": "Post-release inventories, contract basis, seasonality"
     }
   ],
   "metrics": [
     [
       "30",
-      "Catalog records"
+      "Research entries"
     ],
     [
       "12",
-      "References"
+      "Academic and method references"
     ],
     [
       "0",
@@ -504,31 +523,31 @@ window.LIBRARY_EN = {
   "scope": "30 research entries and 12 academic/method references. Signal definitions, position-management rules and PnL operators are distinct; they are not 30 independent alphas.",
   "steps": [
     [
-      "Step 1",
-      "Version product/contract identifiers, multipliers, tick sizes, settlements, expiry, delivery, trading sessions and release timestamps."
+      "Contracts and trading calendars",
+      "Version products, contracts, exchanges, multipliers, minimum ticks, settlements, expiries, delivery, trading sessions and announcement times. Assign night sessions to trading dates consistently."
     ],
     [
-      "Step 2",
-      "Pre-register roll rules and reconstruct PnL using lagged contract holdings; spliced price gaps are not investment returns."
+      "Continuous series and rolls",
+      "Specify liquidity criteria, the safety margin to expiry and roll rules first. Accumulate contract-level PnL using yesterday's positions; spliced price jumps are not investment returns."
     ],
     [
-      "Step 3",
-      "Keep time-series direction, cross-sectional ranks, carry and supply-demand characteristics separate; apply historical risk estimates and leverage limits."
+      "Signals and portfolios",
+      "Record time-series direction, cross-sectional ranks, carry and supply-demand features separately. Use historical estimates for risk scaling and impose product, sector and leverage constraints."
     ],
     [
-      "Step 4",
-      "Include commissions, spread, impact, limit moves and rolls. Report notional and capital returns separately, with collateral interest distinct."
+      "Out-of-sample tests and implementation",
+      "Include commissions, spreads, impact, price limits and roll costs. Report returns on notional and actual capital separately; report collateral cash returns separately. Margin is not the default return denominator."
     ],
     [
-      "Step 5",
-      "Whitelist feature windows, changes, seasonal residuals and limited interactions; evaluate by time, market and commodity sector."
+      "Feature families and incremental tests",
+      "Replicate baseline definitions before registering allowed windows, changes, conditional residuals and limited interactions. Deduplicate within economic families; use rolling-time tests, cross-market holdouts and after-cost ablations. See Feature engineering for budgets and data prerequisites."
     ]
   ],
   "limitations": [
-    "The catalog includes risk measurement, sizing and accounting, not just predictive signals.",
-    "No authorized market-data backtest has been completed; basic trend, basis and contract-PnL examples are available.",
-    "Inventory and commercial-position features apply only to appropriate commodities, not mechanically to equity-index, rate or FX futures.",
-    "Log basis is undefined for non-positive prices; use a pre-registered alternative rather than silently taking absolute values."
+    "The 30 entries include literature candidates, risk measures, portfolio methods and explicitly labeled extension hypotheses; they are not independent validated alphas.",
+    "This is a new academic research framework without authorized futures-market data or a complete backtest. Independent examples cover basic signals, basis and contract-level PnL.",
+    "Commodity inventories and commercial hedging positions have limited applicability. Commodity supply-demand variables cannot be applied mechanically to equity-index, rate or FX futures.",
+    "Log basis is undefined for negative prices. Use an explicit alternative measure; never silently take absolute values."
   ],
   "engineering": {
     "bases": 24,
@@ -577,8 +596,8 @@ window.LIBRARY_EN = {
       "authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen",
       "year": "2012",
       "url": "https://fairmodel.econ.yale.edu/ec439/mosk.pdf",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: 12-month time-series momentum; Volatility targeting; Contract-level PnL; Multi-horizon trend consensus; Risk-adjusted trend strength; Trend acceleration; Trend-path consistency. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional academic research",
+      "note": "Own historical returns across equity-index, rate, FX and commodity futures. Store signal direction separately from volatility scaling."
     },
     {
       "id": "carry",
@@ -586,8 +605,8 @@ window.LIBRARY_EN = {
       "authors": "Ralph Koijen; Tobias Moskowitz; Lasse Heje Pedersen; Evert Vrugt",
       "year": "2018",
       "url": "https://spinup-000d1a-wp-offload-media.s3.amazonaws.com/faculty/wp-content/uploads/sites/3/2019/04/Carry.pdf",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Annualized basis proxy; Commodity carry portfolio; Curve-slope extension; Seasonally adjusted carry; Carry-momentum interaction. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional academic research",
+      "note": "A cross-asset carry framework. The measurement of carry differs by asset class."
     },
     {
       "id": "ghr",
@@ -595,8 +614,8 @@ window.LIBRARY_EN = {
       "authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst",
       "year": "2013",
       "url": "https://doi.org/10.1093/rof/rfs019",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Annualized basis proxy; Inventory state; Commercial hedging pressure; Seasonally adjusted carry; Inventory-release change; Inventory-basis interaction. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional academic research",
+      "note": "The relationship between inventories, basis and commodity returns. An inventory explanation does not validate every positioning-pressure proxy."
     },
     {
       "id": "bgr",
@@ -604,8 +623,8 @@ window.LIBRARY_EN = {
       "authors": "Gurdip Bakshi; Xiaohui Gao; Alberto Rossi",
       "year": "2019",
       "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2017.2840",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Cross-sectional commodity momentum; Commodity carry portfolio; Commodity market factor; Carry-momentum interaction. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional academic research",
+      "note": "A portfolio-pricing framework for commodity market, carry and momentum factors. Published online in 2017; the journal volume is dated 2019."
     },
     {
       "id": "hp",
@@ -613,8 +632,8 @@ window.LIBRARY_EN = {
       "authors": "Frans de Roon; Theo Nijman; Chris Veld",
       "year": "2000",
       "url": "https://doi.org/10.1111/0022-1082.00253",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Commercial hedging pressure; Change in hedging pressure. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional academic research",
+      "note": "Hedger demand may correspond to risk compensation. Fix the commercial-position definition and publication timestamp."
     },
     {
       "id": "basismom",
@@ -622,8 +641,8 @@ window.LIBRARY_EN = {
       "authors": "Martijn Boons; Melissa Porras Prado",
       "year": "2019",
       "url": "https://doi.org/10.1111/jofi.12738",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Basis-momentum; Curve-slope extension; Curve-curvature proxy. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional academic research",
+      "note": "Historical return differences between contracts of different maturities describe curve dynamics, distinct from the current basis level."
     },
     {
       "id": "vm",
@@ -631,8 +650,8 @@ window.LIBRARY_EN = {
       "authors": "Cliff Asness; Tobias Moskowitz; Lasse Heje Pedersen",
       "year": "2013",
       "url": "https://www.aqr.com/insights/research/journal-article/value-and-momentum-everywhere",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Long-horizon commodity value. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional literature / local replication pending",
+      "note": "Cross-market value and momentum. Preserve asset-specific definitions and tradable instruments."
     },
     {
       "id": "century",
@@ -640,8 +659,8 @@ window.LIBRARY_EN = {
       "authors": "Brian Hurst; Yao Hua Ooi; Lasse Heje Pedersen",
       "year": "2017",
       "url": "https://www.aqr.com/-/media/AQR/Documents/Insights/Journal-Article/AQR-JPM-Fall-2017.pdf",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Multi-horizon trend consensus; Trend acceleration. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional literature / local replication pending",
+      "note": "Long-history, multi-market trend research. Historical data quality and implementation costs require independent audit."
     },
     {
       "id": "anatomy",
@@ -649,8 +668,8 @@ window.LIBRARY_EN = {
       "authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
       "year": "2014",
       "url": "https://onlinelibrary.wiley.com/doi/10.1111/jofi.12096",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Spot-risk-premium portfolio; Term-risk-premium portfolio; Curve-curvature proxy; Commodity historical volatility; Commodity liquidity state; Inflation sensitivity. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional literature / local replication pending",
+      "note": "Distinguishes commodity spot and term risk premia. Contracts of different maturities cannot be conflated into one return series."
     },
     {
       "id": "hy",
@@ -658,8 +677,8 @@ window.LIBRARY_EN = {
       "authors": "Harrison Hong; Motohiro Yogo",
       "year": "2012",
       "url": "https://www.sciencedirect.com/science/article/pii/S0304405X12000657",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Open-interest growth. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional literature / local replication pending",
+      "note": "Information in aggregate open-interest changes about the macroeconomy and asset returns. A local single-product open-interest proxy is not an exact replication of the paper's aggregate measure."
     },
     {
       "id": "skew",
@@ -667,8 +686,8 @@ window.LIBRARY_EN = {
       "authors": "Adrian Fernandez-Perez; Bart Frijns; Ana-Maria Fuertes; Joëlle Miffre",
       "year": "2018",
       "url": "https://doi.org/10.1016/j.jbankfin.2017.06.015",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Historical return skewness. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional literature / local replication pending",
+      "note": "Historical skewness and expected commodity returns. The accepted manuscript is dated 2017; the final journal volume is dated 2018."
     },
     {
       "id": "mm",
@@ -676,8 +695,8 @@ window.LIBRARY_EN = {
       "authors": "Alan Moreira; Tyler Muir",
       "year": "2017",
       "url": "https://doi.org/10.1111/jofi.12513",
-      "role": "Research or method reference; see factor-level status",
-      "note": "Research link: Inverse-variance risk management. Local implementation status is recorded on individual factor cards; citation does not establish successful replication."
+      "role": "Additional literature / local replication pending",
+      "note": "Inverse-variance scaling is a portfolio-method reference. The paper is not direct empirical evidence for every CTA product. Distinguish it from inverse-volatility scaling."
     }
   ]
 };

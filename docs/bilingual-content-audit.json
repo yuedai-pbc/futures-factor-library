@@ -1,0 +1,10 @@
+{
+  "repository": "futures-factor-library",
+  "factor_pairs": 30,
+  "reference_pairs": 12,
+  "readme_section_pairs": 9,
+  "step_pairs": 5,
+  "input_field_pairs": 19,
+  "explicit_original_definition_records": 0,
+  "checks_passed": true
+}

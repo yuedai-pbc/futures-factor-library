@@ -4,7 +4,7 @@
 
 Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen; 2012.
 
-Research link: 12-month time-series momentum; Volatility targeting; Contract-level PnL; Multi-horizon trend consensus; Risk-adjusted trend strength; Trend acceleration; Trend-path consistency. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+Own historical returns across equity-index, rate, FX and commodity futures. Store signal direction separately from volatility scaling.
 
 [Paper / source](https://fairmodel.econ.yale.edu/ec439/mosk.pdf)
 
@@ -12,7 +12,7 @@ Research link: 12-month time-series momentum; Volatility targeting; Contract-lev
 
 Ralph Koijen; Tobias Moskowitz; Lasse Heje Pedersen; Evert Vrugt; 2018.
 
-Research link: Annualized basis proxy; Commodity carry portfolio; Curve-slope extension; Seasonally adjusted carry; Carry-momentum interaction. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+A cross-asset carry framework. The measurement of carry differs by asset class.
 
 [Paper / source](https://spinup-000d1a-wp-offload-media.s3.amazonaws.com/faculty/wp-content/uploads/sites/3/2019/04/Carry.pdf)
 
@@ -20,7 +20,7 @@ Research link: Annualized basis proxy; Commodity carry portfolio; Curve-slope ex
 
 Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst; 2013.
 
-Research link: Annualized basis proxy; Inventory state; Commercial hedging pressure; Seasonally adjusted carry; Inventory-release change; Inventory-basis interaction. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+The relationship between inventories, basis and commodity returns. An inventory explanation does not validate every positioning-pressure proxy.
 
 [Paper / source](https://doi.org/10.1093/rof/rfs019)
 
@@ -28,7 +28,7 @@ Research link: Annualized basis proxy; Inventory state; Commercial hedging press
 
 Gurdip Bakshi; Xiaohui Gao; Alberto Rossi; 2019.
 
-Research link: Cross-sectional commodity momentum; Commodity carry portfolio; Commodity market factor; Carry-momentum interaction. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+A portfolio-pricing framework for commodity market, carry and momentum factors. Published online in 2017; the journal volume is dated 2019.
 
 [Paper / source](https://pubsonline.informs.org/doi/10.1287/mnsc.2017.2840)
 
@@ -36,7 +36,7 @@ Research link: Cross-sectional commodity momentum; Commodity carry portfolio; Co
 
 Frans de Roon; Theo Nijman; Chris Veld; 2000.
 
-Research link: Commercial hedging pressure; Change in hedging pressure. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+Hedger demand may correspond to risk compensation. Fix the commercial-position definition and publication timestamp.
 
 [Paper / source](https://doi.org/10.1111/0022-1082.00253)
 
@@ -44,7 +44,7 @@ Research link: Commercial hedging pressure; Change in hedging pressure. Local im
 
 Martijn Boons; Melissa Porras Prado; 2019.
 
-Research link: Basis-momentum; Curve-slope extension; Curve-curvature proxy. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+Historical return differences between contracts of different maturities describe curve dynamics, distinct from the current basis level.
 
 [Paper / source](https://doi.org/10.1111/jofi.12738)
 
@@ -52,7 +52,7 @@ Research link: Basis-momentum; Curve-slope extension; Curve-curvature proxy. Loc
 
 Cliff Asness; Tobias Moskowitz; Lasse Heje Pedersen; 2013.
 
-Research link: Long-horizon commodity value. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+Cross-market value and momentum. Preserve asset-specific definitions and tradable instruments.
 
 [Paper / source](https://www.aqr.com/insights/research/journal-article/value-and-momentum-everywhere)
 
@@ -60,7 +60,7 @@ Research link: Long-horizon commodity value. Local implementation status is reco
 
 Brian Hurst; Yao Hua Ooi; Lasse Heje Pedersen; 2017.
 
-Research link: Multi-horizon trend consensus; Trend acceleration. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+Long-history, multi-market trend research. Historical data quality and implementation costs require independent audit.
 
 [Paper / source](https://www.aqr.com/-/media/AQR/Documents/Insights/Journal-Article/AQR-JPM-Fall-2017.pdf)
 
@@ -68,7 +68,7 @@ Research link: Multi-horizon trend consensus; Trend acceleration. Local implemen
 
 Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh; 2014.
 
-Research link: Spot-risk-premium portfolio; Term-risk-premium portfolio; Curve-curvature proxy; Commodity historical volatility; Commodity liquidity state; Inflation sensitivity. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+Distinguishes commodity spot and term risk premia. Contracts of different maturities cannot be conflated into one return series.
 
 [Paper / source](https://onlinelibrary.wiley.com/doi/10.1111/jofi.12096)
 
@@ -76,7 +76,7 @@ Research link: Spot-risk-premium portfolio; Term-risk-premium portfolio; Curve-c
 
 Harrison Hong; Motohiro Yogo; 2012.
 
-Research link: Open-interest growth. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+Information in aggregate open-interest changes about the macroeconomy and asset returns. A local single-product open-interest proxy is not an exact replication of the paper's aggregate measure.
 
 [Paper / source](https://www.sciencedirect.com/science/article/pii/S0304405X12000657)
 
@@ -84,7 +84,7 @@ Research link: Open-interest growth. Local implementation status is recorded on 
 
 Adrian Fernandez-Perez; Bart Frijns; Ana-Maria Fuertes; Joëlle Miffre; 2018.
 
-Research link: Historical return skewness. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+Historical skewness and expected commodity returns. The accepted manuscript is dated 2017; the final journal volume is dated 2018.
 
 [Paper / source](https://doi.org/10.1016/j.jbankfin.2017.06.015)
 
@@ -92,6 +92,6 @@ Research link: Historical return skewness. Local implementation status is record
 
 Alan Moreira; Tyler Muir; 2017.
 
-Research link: Inverse-variance risk management. Local implementation status is recorded on individual factor cards; citation does not establish successful replication.
+Inverse-variance scaling is a portfolio-method reference. The paper is not direct empirical evidence for every CTA product. Distinguish it from inverse-volatility scaling.
 
 [Paper / source](https://doi.org/10.1111/jofi.12513)

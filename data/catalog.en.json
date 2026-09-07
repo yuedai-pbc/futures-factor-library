@@ -183,7 +183,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Different windows are variants within a family, not separate economic theories.",
     "market": "Cross-asset futures",
-    "reference_authors": "Brian Hurst; Yao Hua Ooi; Lasse Heje Pedersen; Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen"
+    "reference_authors": "Brian Hurst; Yao Hua Ooi; Lasse Heje Pedersen; Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen",
+    "input_fields": "Excess returns reconstructed under the trading rules"
   },
   {
     "id": "trend_strength",
@@ -199,7 +200,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Extension hypothesis; keep distinct from position scaling to avoid double amplification.",
     "market": "Cross-asset futures",
-    "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen"
+    "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen",
+    "input_fields": "Rule-consistent returns, historical volatility"
   },
   {
     "id": "trend_accel",
@@ -216,7 +218,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "New hypothesis; choose horizons before inspecting final tests.",
     "market": "Cross-asset futures",
-    "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen; Brian Hurst; Yao Hua Ooi; Lasse Heje Pedersen"
+    "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen; Brian Hurst; Yao Hua Ooi; Lasse Heje Pedersen",
+    "input_fields": "Returns over multiple windows, historical risk scales"
   },
   {
     "id": "trend_consistency",
@@ -232,7 +235,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "New extension; compare incrementally against trend and volatility controls.",
     "market": "Cross-asset futures",
-    "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen"
+    "reference_authors": "Tobias Moskowitz; Yao Hua Ooi; Lasse Heje Pedersen",
+    "input_fields": "Daily rule-consistent returns"
   },
   {
     "id": "value_long",
@@ -248,7 +252,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Pre-register real-price and maturity adjustments; do not splice incompatible spot grades.",
     "market": "Commodity futures",
-    "reference_authors": "Cliff Asness; Tobias Moskowitz; Lasse Heje Pedersen"
+    "reference_authors": "Cliff Asness; Tobias Moskowitz; Lasse Heje Pedersen",
+    "input_fields": "Long historical spot/futures series, necessary price adjustments"
   },
   {
     "id": "spot_premium",
@@ -264,7 +269,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "A decomposition concept; untradeable spot returns are not executable futures strategies.",
     "market": "Commodity futures",
-    "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+    "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+    "input_fields": "Prices across delivery months, contract returns, basis"
   },
   {
     "id": "term_premium",
@@ -280,7 +286,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Requires contract-level series and roll accounting.",
     "market": "Commodity futures",
-    "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+    "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+    "input_fields": "Contract returns across maturities, expiry dates, sorting variables"
   },
   {
     "id": "curve_curvature",
@@ -297,7 +304,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "New proxy, not basis-momentum. Adjust for unequal spacing and seasonality.",
     "market": "Commodity futures",
-    "reference_authors": "Martijn Boons; Melissa Porras Prado; Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+    "reference_authors": "Martijn Boons; Melissa Porras Prado; Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+    "input_fields": "At least three synchronous positive prices, expiry dates"
   },
   {
     "id": "carry_seasonal",
@@ -314,7 +322,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Require adequate historical seasonal observations; do not mix unlike delivery seasons.",
     "market": "Commodity futures",
-    "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst; Ralph Koijen; Tobias Moskowitz; Lasse Heje Pedersen; Evert Vrugt"
+    "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst; Ralph Koijen; Tobias Moskowitz; Lasse Heje Pedersen; Evert Vrugt",
+    "input_fields": "Multi-year curves, delivery months, seasonal labels"
   },
   {
     "id": "inventory_surprise",
@@ -330,7 +339,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Use release time, not observation-period end; estimate expectations from past data only.",
     "market": "Commodity futures",
-    "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst"
+    "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst",
+    "input_fields": "Historical inventory-release vintages, publication times"
   },
   {
     "id": "oi_growth",
@@ -346,7 +356,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Using only the dominant contract creates roll artifacts. Separate aggregate-paper measures from local extensions.",
     "market": "Commodity futures",
-    "reference_authors": "Harrison Hong; Motohiro Yogo"
+    "reference_authors": "Harrison Hong; Motohiro Yogo",
+    "input_fields": "Contract-level open interest, multipliers, contract status"
   },
   {
     "id": "hp_change",
@@ -362,7 +373,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Extension hypothesis; broker rankings are not commercial-account classifications.",
     "market": "Commodity futures",
-    "reference_authors": "Frans de Roon; Theo Nijman; Chris Veld"
+    "reference_authors": "Frans de Roon; Theo Nijman; Chris Veld",
+    "input_fields": "Commercial long/short positions, publication times"
   },
   {
     "id": "return_skew",
@@ -378,7 +390,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Record the original sample sign separately; small samples are unstable and zero variance means missing.",
     "market": "Commodity futures",
-    "reference_authors": "Adrian Fernandez-Perez; Bart Frijns; Ana-Maria Fuertes; Joëlle Miffre"
+    "reference_authors": "Adrian Fernandez-Perez; Bart Frijns; Ana-Maria Fuertes; Joëlle Miffre",
+    "input_fields": "Daily rule-consistent returns"
   },
   {
     "id": "commodity_vol",
@@ -394,7 +407,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Do not assume either high or low volatility must be profitable.",
     "market": "Commodity futures",
-    "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+    "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+    "input_fields": "Daily rule-consistent returns"
   },
   {
     "id": "liquidity_state",
@@ -410,7 +424,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Notional turnover must include multipliers; margin is not transaction value.",
     "market": "Commodity futures",
-    "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+    "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+    "input_fields": "Trading volume, traded value, spreads, rule-consistent returns"
   },
   {
     "id": "inflation_beta",
@@ -426,7 +441,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "New beta extension; not claimed equivalent to the original characteristic sorts.",
     "market": "Commodity futures",
-    "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh"
+    "reference_authors": "Marta Szymanowska; Frans de Roon; Theo Nijman; Rob van den Goorbergh",
+    "input_fields": "Historical inflation releases, commodity returns"
   },
   {
     "id": "inverse_variance",
@@ -442,7 +458,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Method-transfer hypothesis, not CTA-specific evidence; distinct from inverse-volatility targeting.",
     "market": "Cross-asset futures",
-    "reference_authors": "Alan Moreira; Tyler Muir"
+    "reference_authors": "Alan Moreira; Tyler Muir",
+    "input_fields": "Strategy returns, lagged variance, capital limits"
   },
   {
     "id": "carry_momentum",
@@ -459,7 +476,8 @@
     "source": "Research definitions added in this expansion",
     "caveat": "New interaction hypothesis; compare against a main-effects model.",
     "market": "Commodity futures",
-    "reference_authors": "Ralph Koijen; Tobias Moskowitz; Lasse Heje Pedersen; Evert Vrugt; Gurdip Bakshi; Xiaohui Gao; Alberto Rossi"
+    "reference_authors": "Ralph Koijen; Tobias Moskowitz; Lasse Heje Pedersen; Evert Vrugt; Gurdip Bakshi; Xiaohui Gao; Alberto Rossi",
+    "input_fields": "Carry, momentum, cross-sectional classifications"
   },
   {
     "id": "inventory_basis",
@@ -475,6 +493,7 @@
     "source": "Research definitions added in this expansion",
     "caveat": "Pre-register direction; estimate separately across storage regimes.",
     "market": "Commodity futures",
-    "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst"
+    "reference_authors": "Gary Gorton; Fumio Hayashi; K. Geert Rouwenhorst",
+    "input_fields": "Post-release inventories, contract basis, seasonality"
   }
 ]
